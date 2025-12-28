@@ -21,8 +21,9 @@
     "module": "NodeNext", // Preserves ES module syntax (important for native ESM)
     "noEmit": false, // Enables output generation
     "outDir": "dist", // Output directory for compiled JavaScript
+    "rootDir": "./src", // Root directory
+    "baseUrl": "./", // Base path for module resolution
     /* Paths */
-    "baseUrl": "./src", // Base path for module resolution
     "paths": {
       "#*": ["*"] // Defines internal path aliases with '#' to avoid conflict with '@'
     }

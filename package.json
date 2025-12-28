@@ -16,5 +16,11 @@
   "devDependencies": {
     "@types/node": "^25.0.3",
     "typescript": "^5.9.3"
+  },
+  "imports": {
+    "#utils": {
+      "development": "./src/utils/index.ts",
+      "default": "./dist/utils/index.js"
+    }
   }
 }
